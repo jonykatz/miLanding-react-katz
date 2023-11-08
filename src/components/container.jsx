@@ -1,9 +1,9 @@
-const container = ({children}) => {
+const Container = ({children}) => {
   return (
     <div className="container mt-5">
-    {children}
+      {children}
     </div>
   )
 }
 
-export default container
+export default Container
